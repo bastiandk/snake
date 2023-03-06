@@ -11,7 +11,6 @@ input.onButtonPressed(Button.B, function () {
     }
 })
 let runt = 0
-basic.showString("Hello, Bastian!")
 let eat1_x = randint(0, 4)
 let eat1_y = randint(0, 4)
 runt = 0
@@ -19,6 +18,7 @@ let snake_1x = 2
 let snake_1y = 2
 led.plot(snake_1x, snake_1y)
 led.plot(eat1_x, eat1_y)
+basic.showString("Hello, Bastian!")
 loops.everyInterval(1000, function () {
     if (runt == 1) {
         led.unplot(snake_1x, snake_1y)
