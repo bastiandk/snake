@@ -11,6 +11,7 @@ input.onButtonPressed(Button.B, function () {
     }
 })
 let runt = 0
+basic.showString("Hello, Bastian!")
 let eat1_x = randint(0, 4)
 let eat1_y = randint(0, 4)
 runt = 0
